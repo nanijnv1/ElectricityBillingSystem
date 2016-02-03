@@ -1,0 +1,20 @@
+
+Maintaining Customer information
+Customer sign ups online or over the phone
+Customer enquiries regarding billing and payments , rate cards and tarrifs
+Bill presentation on line with itemised breakdown 
+Bill presentation by post or PDF
+Payment platforms including 
+Pay by phone
+Pay over the counter 
+Pay online with Credit Card
+Direct Debit from credit card
+Direct Debit from Bank Account
+SMS Payment confirmations
+Notifications to customers 
+SMS
+Post
+Online
+Email
+Automatic daily reading,monthly reading,time of use & multi rate tariff
+Remainders about last date 
