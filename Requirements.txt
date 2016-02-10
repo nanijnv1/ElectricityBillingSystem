@@ -18,3 +18,4 @@ Online
 Email
 Automatic daily reading,monthly reading,time of use & multi rate tariff
 Remainders about last date 
+Remaind last date of the billing date
