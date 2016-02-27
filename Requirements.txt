@@ -1,21 +1,24 @@
+1> Customer information
+2> Customer creates account
+3> Customer enquiries 
+4> bill on online timeline
+5> Bill by email or post or house 
+6> modes of Payment  
+          Pay by phone
+          Pay at counter(offline) 
+	  pay online		
+             debit card
+	     credit card
 
-Maintaining Customer information
-Customer sign ups online or over the phone
-Customer enquiries regarding billing and payments , rate cards and tarrifs
-Bill presentation on line with itemised breakdown 
-Bill presentation by post or PDF
-Payment platforms including 
-Pay by phone
-Pay over the counter 
-Pay online with Credit Card
-Direct Debit from credit card
-Direct Debit from Bank Account
-SMS Payment confirmations
-Notifications to customers 
-SMS
-Post
-Online
-Email
-Automatic daily reading,monthly reading,time of use & multi rate tariff
-Remainders about last date 
-Remaind last date of the billing date
+7>Payment confirmations
+       by  email
+       by sms
+
+7> Notifications 
+	by SMS
+	by manual
+	by Online timeline
+	by Email
+8>automatic updation usage of electricity and time of use
+
+9>Remaind last date of the billing date
