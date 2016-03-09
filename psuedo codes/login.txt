@@ -1,0 +1,7 @@
+ username
+ password
+IF(username==USER && password==pass)
+login successful
+else
+login failed
+end

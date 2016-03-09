@@ -1,0 +1,14 @@
+IF Login successful then
+
+if option == payment then
+amount payable
+
+Transaction Type:
+transaction amount:
+
+PIN== True
+then transaction sucessful
+else
+try again
+
+delayed display timeout for session
