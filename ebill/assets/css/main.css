@@ -1,0 +1,147 @@
+/*
+  * Project Name:(ELECTRICITY BILL MANAGEMENT SYSTEM)
+ */
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+/* Titles */
+
+h1, h2, h3, h4, h5, h6 ,a{
+    font-family: Lato,Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: #333;
+}
+h1 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+h3 {
+    color: #95a5a6;
+    font-weight: 400;
+}
+h4 {
+    color: #95a5a6;
+    font-weight: 400;
+    font-size: 20px;
+}
+/* Paragraph & Typographic */
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+.centered {
+    text-align: center;
+}
+/* Links */
+
+a {
+    color: #0e175b;
+    word-wrap: break-word;
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+a:hover, a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+/*a:before, a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}*/
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+.navbar-default {
+    background-color: rgba(38,46,107,.8);
+    border-color: transparent;
+}
+.navbar-header > a:hover  {
+    color:#e9eaf0;
+}
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+    margin: 0px;
+    padding-top:20px;
+}
+.
+/* Helpers */
+
+.mt {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.form-control {
+    height: 42px;
+    font-size: 18px;
+    width: 280px;
+}
+i {
+    margin: 8px;
+    color: #0e175b;
+}
+
+/* HeaderWrap */
+
+#headerwrap {
+    background-color: #0e175b;
+    padding-top: 70px;
+    padding-bottom: 0px;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 650px;
+    width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.darkhearderwrap{
+    background-color: rgba(0,0,0,.27);
+    margin-top: -50px;
+    padding-top: 100px;
+    padding-bottom: 3.2%;
+}
+#headerwrap h1 {
+    margin-top: 60px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 45px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#headerwrap p , .checkbox {
+    color: #d8e5e5;
+}
+#headerwrap>.container>.row>.col-lg-6:first-child{
+    padding-top: 100px;
+}
