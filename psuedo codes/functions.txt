@@ -1,0 +1,40 @@
+
+#variables:
+user_id[Global in all pages]
+Text   [compulsory]: What the user actually written in the post column
+Option [compulsory]: user option which indicates the level of privacy
+Image  [OPtional]  : Image which the user gave along with the post
+Tags   [Optional]  : User mentioned tags
+
+#Psudeo code:
+
+main():
+
+ if(image!=null):
+	image_link=upload_image(image_file);
+ else:
+	image_link=null;
+
+ switch(Option):
+	case Public :
+		Step_1:save_into_posts(user_id,text,option=public,tags(optional),image(optional));
+
+	case Friends:
+		Step_1:save_into_posts(user_id,text,option=friends,tags(optional),image(optional));
+		Step_2:changed_Text = change_text(Text);
+                Step_3:posting(changed_Text,Option=Public,other_options=null);
+
+	case OnlyMe :
+		Step_1:save_into_posts(user_id,text,option=only_me,tags(optional),image(optional));
+		Step_2:changed_Text = change_text(Text);
+                Step_3:posting(changed_Text,Option=Public,other_options=null);
+
+
+ save_into_posts(text,option,tags=null,image=null):
+        step_1:connect to database;
+        #posts_should_have_timestamp_which_by_default is a null; 
+	step_2:INSERT INTO posts(post_id,user_id,post,option,tags,image_link) VALUES (null,user_id,text,option,tags,image);
+
+#External_functions
+upload_image();
+

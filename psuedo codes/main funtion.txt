@@ -1,0 +1,32 @@
+#Pusdeo code for implementing the view_post module in social networking site
+#Implements when javascripts functions triggers this function button is pressed in text mode 
+
+#Variable:
+user_id[global in all pages]
+
+
+#Psudeo code:
+
+main():
+ 
+  step_1 : connect to database;
+  step_2 : SELECT * FROM posts ORDERBY timestamp ASC;[Atmost one post which is more recent]
+ 
+  if(option == public):
+ 	if(content_verify(text,content_type) == true):
+ 		return the post_content to calling page;
+ 	else:
+ 		return null to calling page;
+
+ else if(option == public):
+ 	if(friendship(user_id,post.user_id)=true):
+ 		return the post_content to calling page;
+ 	else:
+ 		return null to calling page;
+ else:
+ 	return null to calling page;
+
+
+#External_functions:
+ content_verify();
+ friendship();	  	
